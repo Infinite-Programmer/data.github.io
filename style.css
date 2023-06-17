@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ body{
+  background: rgba(3, 3, 3, 0.966);
+}
+h1{
+  color: white;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 5vh;
+}
+h2{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  color: whitesmoke;
+  padding-top: 6vh;
+}
+form {
+  padding-top: 3vh;
+  margin-bottom: 20px;
+}
+hr {
+  height: 2px;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  animation: rainbow 1s linear infinite;
+}
+
+@keyframes rainbow {
+  0% { background-position: left; }
+  100% { background-position: right; }
+}
+
+
+input[type="text"] {
+  font-size: 15px;
+  font-family: 'Ubuntu', sans-serif; 
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btndel{
+  width: 100%;
+  background: rgb(8, 77, 167);
+}
+
+button {
+  text-align: center;
+  display: block;
+  padding: 10px;
+  background-color: #a52525;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  border-right:1px solid #ddd ;
+  height: 5vh;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tr {
+  background-color: #161515d2;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background: rgb(24, 22, 22);
+  color: white;
+}

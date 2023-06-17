@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+  <link rel="manifest" href="Favicon/site.webmanifest">
+  <link rel="mask-icon" href="Favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Star Builder And Developer Associate Tali Side</title>
+</head>
+
+<body>
+  <main>
+    <h1>Entry Management System</h1>
+    <h2>Star Builder And Developer Associate Tali Side Specially Made For Ayyub Khan</h2>
+    <hr>
+    <form>
+      <input type="text" id="nameInput" class="ni" placeholder="Enter The Name"><br>  
+      <input type="text" id="amountSentInput" class="as" oninput="validateNumberInput(this)" placeholder="Amount You Sent"><br>
+      <input type="text" id="amountReceivedInput" class="ar" oninput="validateNumberInput(this)" placeholder="Amount You Received"><br>
+      <input type="text" id="reasonInput" class="reasonInput" placeholder="Why You Sent Amount And Why You Recived The Amount"></input><br>
+      <button type="button" onclick="addEntry()" class="btndel">Add Entry</button>
+        
+    </form>
+    <table id="entryTable">
+      <thead>
+        <tr>
+          <th class="sn">Sr.No</th>
+          <th class="date">Date</th>
+          <th class="name">Name</th>
+          <th class="amounts">Amount Sent</th>
+          <th class="amountr">Amount Received</th>
+          <th class="reason">Reason</th>
+          <th class="action">Action</th>
+        </tr>
+      </thead>
+        <tbody>
+        </tbody>
+    </table>
+  </main>
+</body>

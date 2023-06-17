@@ -1,0 +1,14 @@
+This Web Personaly Made For 'Ayyub Khan' For Handling Data Amount Entries Row Wise
+Price: 200 Rupees
+Date Created 17-06-2023 01-07-36
+Folders: Index.html
+style.css
+javascript
+Many More.
+Info. As This Is Not Complex Code Source Code Is Avalible Where Ever The Folders Includes The Packages
+
+Author: Ibrahim Khan
+Date Created 17-06-2023 01-07-36
+Web-Page: Specially Made For User Who Want to Hande The Data Entry
+
+ 
