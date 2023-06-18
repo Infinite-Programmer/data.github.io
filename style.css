@@ -88,3 +88,19 @@ footer{
   background: rgb(24, 22, 22);
   color: white;
 }
+
+    @media only screen and (max-width: 600px) {
+      table {
+        font-size: 14px;
+      }
+  td.reason,
+      td.action {
+        word-wrap: break-word;
+        white-space: normal;
+      }
+    }
+   @media only screen and (max-width: 400px) {
+      table {
+        font-size: 12px; 
+      }
+    }
